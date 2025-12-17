@@ -1,0 +1,33 @@
+{
+  "999": "Los billetes que presenta son:\n{}",
+  "998": "{}º billete,  Tipo: {},  Tramo de uso: {} -> {}",
+  "997": "{}º recibo / comprobante de uso",
+  "996": "Si la estación por la que está saliendo ahora no está incluida en la indicación anterior, es posible que sea necesario realizar un ajuste de tarifa, por lo que le recomendamos consultar en una máquina de ajuste de tarifa o con el personal de la estación.",
+  "995": "Explicación sobre los billetes:\nEl billete de transporte es la tarifa básica para el desplazamiento; sin este, no se puede viajar. Con solo este billete, por lo general no se pueden utilizar trenes exprés limitados ni el Shinkansen.\nEl billete exprés limitado es la tarifa adicional para utilizar trenes exprés limitados. No se puede viajar si no se utiliza junto con el billete de transporte.\nEl billete exprés del Shinkansen es la tarifa adicional para utilizar el Shinkansen. No se puede viajar si no se utiliza junto con el billete de transporte del Shinkansen.",
+  "994": "El papel que ha presentado es muy probable que no sea un billete, sino un recibo. Por favor, vuelva a comprobar si tiene el billete en su bolso.",
+  "993": "{}º {} -> {}",
+
+  "899": "Al utilizar un JR-Pass, solo debe insertar el JR-Pass en sí. Inserte el JR-Pass en la puerta de acceso, conserve el billete reconocido durante el viaje y preséntelo al personal cuando sea necesario.",
+
+  "799": "Si no está claro si el billete que está utilizando es un JR-Pass, se recomienda acudir a consultar con el personal de la estación.",
+
+  "699": "==🚫==ADVERTENCIA==🚫==\n{}",
+  "698": "==⚠️==PRECAUCIÓN==⚠️==\n{}",
+  "697": "==ℹ️==INFORMACIÓN==ℹ️==\n{}",
+  "696": "==✅==CORRECTO==✅==\n{}",
+
+  "1": "Si ahora se encuentra fuera de la estación {}, utilice el {}º billete de {} -> {}.",
+  "2": "El billete que ha presentado no incluye un billete de transporte. Por favor, compre un billete de transporte antes de viajar.",
+  "3": "Si ahora va a entrar por la puerta exclusiva del Shinkansen, utilice también el {}º billete de {} -> {}.",
+  "4": "Al realizar el transbordo al Shinkansen, también se requiere un billete exprés del Shinkansen; sin embargo, el billete que ha presentado ahora no incluye un billete de transporte del Shinkansen, por lo que compre un billete exprés del Shinkansen.",
+  "5": "El billete que ha presentado no incluye un billete de transporte. Al realizar el transbordo al Shinkansen, también se requiere un billete de transporte, por lo que compre un billete de transporte antes de viajar.",
+  "6": "Por favor, inserte en la puerta de acceso todos los billetes excepto {}.",
+  "7": "Por favor, inserte todos los billetes que tiene en la puerta de acceso al mismo tiempo.",
+  "8": "Si ahora se encuentra dentro de la estación {}, utilice el {}º billete de {} -> {}.",
+  "9": "El billete que presenta ahora no incluye un billete de transporte. Si utilizó una tarjeta IC de transporte al entrar, toque la tarjeta IC para salir. Si no utilizó una tarjeta IC, realice el ajuste de tarifa en una máquina de ajuste o con el personal de la estación.",
+  "10": "Si ahora se encuentra dentro de la estación Shinkansen {} y sale directamente al exterior,\nutilice conjuntamente el {}º billete de {} -> {} y el {}º billete de {} -> {}.",
+  "11": "El billete de transporte que tiene actualmente es:\n{},\nEl billete exprés del Shinkansen es:\n{},\nInserte el billete de transporte y el billete exprés como un par de dos en la puerta de acceso.",
+  "12": "Los billetes que ha presentado no incluyen un billete exprés del Shinkansen. Para transferirse del Shinkansen a las líneas convencionales, se requiere un billete exprés del Shinkansen, por lo que busque el billete exprés del Shinkansen.",
+  "13": "Los billetes que ha presentado no incluyen un billete de transporte. Para salir de la estación se requiere un billete de transporte, por lo que busque el billete de transporte o consulte con el personal de la estación.",
+  "14": "No es posible confirmar la situación, por lo que le pedimos que consulte con el personal de la estación."
+}

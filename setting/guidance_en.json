@@ -1,0 +1,33 @@
+{
+  "999": "The tickets you are presenting are:\n{}",
+  "998": "{}th ticket,  Ticket type: {},  Travel section: {} -> {}",
+  "997": "{}th receipt / usage slip",
+  "996": "If the station you are exiting now is not included in the above list, there may be a need for fare adjustment, so please check with a fare adjustment machine or station staff.",
+  "995": "Explanation about tickets:\nA base fare ticket is the basic fare for travel, and without it you cannot board. With only this ticket, you generally cannot use limited express trains or the Shinkansen.\nA limited express ticket is the additional fare for using limited express trains. You cannot board unless you use it together with a base fare ticket.\nA Shinkansen limited express ticket is the additional fare for using the Shinkansen. You cannot board unless you use it together with a Shinkansen base fare ticket.",
+  "994": "The paper you presented is highly likely to be a receipt rather than a ticket. Please check your bag once again to see if you have the ticket.",
+  "993": "{}th {} -> {}",
+
+  "899": "When using a JR-Pass, only the JR-Pass itself should be inserted. Insert the JR-Pass into the ticket gate, then keep the recognized ticket with you during your journey and present it to staff when necessary.",
+
+  "799": "If it is unclear whether the ticket you are using is a JR-Pass, it is recommended to go and check with station staff.",
+
+  "699": "==🚫==WARNING==🚫==\n{}",
+  "698": "==⚠️==CAUTION==⚠️==\n{}",
+  "697": "==ℹ️==INFORMATION==ℹ️==\n{}",
+  "696": "==✅==CORRECT==✅==\n{}",
+
+  "1": "If you are now outside {} Station, please use the {}th {} -> {} ticket.",
+  "2": "The ticket you presented does not include a base fare ticket. Please purchase a base fare ticket before boarding.",
+  "3": "If you are now entering the Shinkansen-only gate, please use the {}th {} -> {} ticket together.",
+  "4": "When transferring to the Shinkansen, a Shinkansen limited express ticket is also required. However, the ticket you are presenting now does not include a Shinkansen base fare ticket, so please purchase a Shinkansen limited express ticket.",
+  "5": "The ticket you presented does not include a base fare ticket. When transferring to the Shinkansen, a base fare ticket is also required, so please purchase a base fare ticket before boarding.",
+  "6": "Please insert all tickets you have except for the {} you are holding into the ticket gate together.",
+  "7": "Please insert all tickets you have into the ticket gate together.",
+  "8": "If you are now inside {} Station, please use the {}th {} -> {} ticket.",
+  "9": "The ticket you are presenting now does not include a base fare ticket. If you used a transportation IC card when entering, please tap the IC card to exit. If you did not use an IC card, please make a fare adjustment at a fare adjustment machine or with station staff.",
+  "10": "If you are now inside the Shinkansen {} Station and are exiting the station directly,\nplease use the {}th {} -> {} ticket together with the {}th {} -> {} ticket.",
+  "11": "The base fare ticket you currently have is:\n{},\nThe Shinkansen limited express ticket is:\n{},\nPlease insert the base fare ticket and the limited express ticket as a paired set of two into the ticket gate.",
+  "12": "The tickets you presented do not include a Shinkansen limited express ticket. When transferring from the Shinkansen to conventional lines, a Shinkansen limited express ticket is required, so please look for the Shinkansen limited express ticket.",
+  "13": "The tickets you presented do not include a base fare ticket. Since a base fare ticket is required to exit, please look for the base fare ticket or contact station staff.",
+  "14": "We are unable to confirm the situation, so we kindly ask you to contact station staff."
+}
