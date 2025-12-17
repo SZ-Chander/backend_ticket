@@ -9,6 +9,7 @@ class GPTSetter:
         # apiKey = self.readKey(apiPath)
         apiKey = self.readKeybyEnviron()
         self.basicSettings = self.readBasicSettings(base_path)
+        print("apikey is : {}".format(apiKey))
         self.client = OpenAI(api_key=apiKey)
 
     def getText(self, settingPath:str, img_b64:str, language:str) -> str:
