@@ -88,6 +88,15 @@ async def ping():
 async def future_feature():
     return {"message": "future feature not implemented yet"}
 
+@app.get("/debug-proxy")
+def debug_proxy():
+    import os
+    return {
+        "HTTP_PROXY": os.environ.get("HTTP_PROXY"),
+        "HTTPS_PROXY": os.environ.get("HTTPS_PROXY"),
+    }
+
+
 
 # 本地调试入口
 if __name__ == "__main__":
