@@ -43,6 +43,7 @@ class TicketOCRService:
         chat_setting_filePath = "{}/setting/api_chat_setting.json".format(BASE_DIR)
         gpt_setter = GPTSetter(api_key_filePath, chat_basic_setting_filePath)
 
+        print("i am the language code: {}".format(language))
         if(language == "ja"):
             guidanceBook = guidanceBooks["jp"]
         elif(language == "en"):
@@ -183,6 +184,7 @@ class TicketOCRService:
                     return_texts.append(guidanceBook['699'].format(return_sub_texts))
                     if(tickets_box.check_only_receipt()):
                         return_texts.append(guidanceBook['698'].format(guidanceBook["994"]))
+                        return_texts.append(guidanceBook['697'].format(guidanceBook["995"]))
                     else:
                         return_texts.append(guidanceBook['697'].format(guidanceBook["995"]))
             elif(location == "station_inside_transfer"):
@@ -192,6 +194,7 @@ class TicketOCRService:
                     # code 5
                     return_sub_texts = guidanceBook["5"]
                     return_texts.append(guidanceBook['699'].format(return_sub_texts))
+                    return_texts.append(guidanceBook['697'].format(guidanceBook["995"]))
                     pass
                 else:
                     superExpTickets = tickets_box.superExpressFare_ticket
@@ -199,6 +202,7 @@ class TicketOCRService:
                         # code 4
                         return_sub_texts = guidanceBook["4"]
                         return_texts.append(guidanceBook['699'].format(return_sub_texts))
+                        return_texts.append(guidanceBook['697'].format(guidanceBook["995"]))
                         pass
                     else:
                         ltdExpTickets = tickets_box.ltdFare_ticket
@@ -257,6 +261,7 @@ class TicketOCRService:
                 else:
                     # code 9
                     return_texts.append(guidanceBook["699"].format(guidanceBook["9"]))
+                    return_texts.append(guidanceBook['697'].format(guidanceBook["995"]))
                     pass
                 pass
             elif(location == "shinkansen_inside_transfer"):
